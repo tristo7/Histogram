@@ -12,7 +12,6 @@ public class Histogram {
 		File inFile = new File("histogram.txt");
 		Scanner scanfile = new Scanner(inFile);
 		
-		//int counter = 0;
 		while (scanfile.hasNextInt()){
 			int input = scanfile.nextInt();
 			
@@ -37,11 +36,9 @@ public class Histogram {
 			} else if(input <=100){
 				histogram[9]++; //91-100
 			}
-			//counter = counter + 1;
 		}
 		
 		scanfile.close();
-		//System.out.println("Found "+ counter + " numbers!");
 		printHistogram(histogram);
 		
 		
