@@ -59,11 +59,12 @@ public class Histogram {
 	}
 
 	private static String createAsterisks(int num) {
-	    StringBuilder builder = new StringBuilder();
-	    for (int i = 0; i < num; i++) {
-	        builder.append('*');
-	    }
-	    return builder.toString();
+		String val = "";
+		for(int i=0;i<num;i++){
+			val = val.concat("*");
+		}
+		return val;
+		
 	}
 	
 }
