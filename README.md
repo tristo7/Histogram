@@ -18,7 +18,9 @@ I created an array of 10 integers to keep count of the numbers. For each integer
     	int leftBound  = 1;
     	int rightBound = 10;
     	for (int range = 0; range < array.length; range++) {
-    		System.out.printf("%2d-%-3d : " + createAsterisks(array[range])+"\n",leftBound,rightBound);
+    		System.out.printf("%2d-%-3d : "+ 
+					createAsterisks(array[range])+
+					"\n",leftBound,rightBound);
     		leftBound  = leftBound+10;
     		rightBound = rightBound+10;
     	}
