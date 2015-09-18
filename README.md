@@ -26,7 +26,7 @@ I created an array of 10 integers to keep count of the numbers. For each integer
     	}
     }
 
-**printHistogram** handles formatting output of the data into the command line. Within this function, **creatAsterisks** is called. 
+**printHistogram** handles formatting output of the data into the command line. Within this function, **createAsterisks** is called. 
 
     private static String createAsterisks(int num) {
     	String val = "";
@@ -36,7 +36,7 @@ I created an array of 10 integers to keep count of the numbers. For each integer
     	return val;
     }
 
-**creatAsterisks** creates a String with as many asterisks as the corresponding counter in the array. It then returns them to the **printHistogram** function to be printed out to the user.
+**createAsterisks** creates a String with as many asterisks as the corresponding counter in the array. It then returns them to the **printHistogram** function to be printed out to the user.
 
 
 output:
