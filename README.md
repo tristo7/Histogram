@@ -4,7 +4,7 @@ A Graphical Representation of Data
 I created this Java program for the first project in my Data Structures & Algorithms course. The objective was to output a neatly formatted histogram based on an arbitrary number of integers from zero to one-hundred.
 
 
-input from histogram.txt:
+Input from histogram.txt:
 > 51 68 42 61 23 50 79 9 12 9 67 85 64 97 41 13 66 47 54 2 46 48
 > 11 52 79 48 73 48 51 15 44 97 19 48 53 13 58 47 95 2 1 65 84 28
 > 89 99 70 67 84 36 57 89 44 11 22 33 55 45 66 88 77 11 13 16 17 19
@@ -39,6 +39,6 @@ I created an array of 10 integers to keep count of the numbers. For each integer
 **createAsterisks** creates a String with as many asterisks as the corresponding counter in the array. It then returns them to the **printHistogram** function to be printed out to the user.
 
 
-output:
+Output from command line:
 
 ![](http://i.imgur.com/26hkzSg.png)
